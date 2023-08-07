@@ -21,9 +21,9 @@ to be able to publish `THRESHOLD_ALERT` event through a message queue and consum
 
 ## TASKS Breakdown
 
-- [ ] **Copy all your work in phase one**
+- [X] **Copy all your work in phase one**
 --
-- [ ] **Set up your environment**
+- [X] **Set up your environment**
  Whether on your machine or using docker, make sure you have a running rabbitmq broker
 --
 - [ ] **Get to know Rabbitmq and Configure the queues**
