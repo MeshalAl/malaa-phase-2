@@ -5,11 +5,9 @@ import string
 def random_name(length=5):
     return ''.join(random.choice(string.ascii_letters) for i in range(length))
 
-# Random threshold price generator
 def random_threshold(min_val=50.0, max_val=200.0):
     return round(random.uniform(min_val, max_val), 2)
 
-# Random symbol generator
 def random_symbol(length=4):
     return ''.join(random.choice(string.ascii_uppercase) for i in range(length))
 
